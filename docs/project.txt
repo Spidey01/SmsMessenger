@@ -1,0 +1,21 @@
+Created with:
+
+	$ android create project -t "android-17" -p ./SmsMessenger -k com.spidey01.SmsMessenger -a MainActivity -n "SmsMessenger"
+	Created project directory: ./SmsMessenger
+	Created directory /home/terry/sw/workspace/SmsMessenger/src/com/spidey01/SmsMessenger
+	Added file ./SmsMessenger/src/com/spidey01/SmsMessenger/MainActivity.java
+	Created directory /home/terry/sw/workspace/SmsMessenger/res
+	Created directory /home/terry/sw/workspace/SmsMessenger/bin
+	Created directory /home/terry/sw/workspace/SmsMessenger/libs
+	Created directory /home/terry/sw/workspace/SmsMessenger/res/values
+	Added file ./SmsMessenger/res/values/strings.xml
+	Created directory /home/terry/sw/workspace/SmsMessenger/res/layout
+	Added file ./SmsMessenger/res/layout/main.xml
+	Created directory /home/terry/sw/workspace/SmsMessenger/res/drawable-xhdpi
+	Created directory /home/terry/sw/workspace/SmsMessenger/res/drawable-hdpi
+	Created directory /home/terry/sw/workspace/SmsMessenger/res/drawable-mdpi
+	Created directory /home/terry/sw/workspace/SmsMessenger/res/drawable-ldpi
+	Added file ./SmsMessenger/AndroidManifest.xml
+	Added file ./SmsMessenger/build.xml
+	Added file ./SmsMessenger/proguard-project.txt
+
