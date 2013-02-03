@@ -1,9 +1,12 @@
 package com.spidey01.SmsMessenger;
 
-import android.app.Activity;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
+
 import android.os.Bundle;
 
-public class MainActivity extends Activity
+public class MainActivity extends FragmentActivity
 {
     /** Called when the activity is first created. */
     @Override
@@ -11,5 +14,17 @@ public class MainActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
+        FragmentManager manager = getSupportFragmentManager();
+
+        MainFragment f = (MainFragment)manager.findFragmentById(R.id.fragment_container);
+        if (f == null) {
+            FragmentTransaction trans = manager.beginTransaction();
+            {
+                f = new MainFragment();
+                trans.add(R.id.fragment_container, f);
+            }
+            trans.commit();
+        }
     }
 }
