@@ -17,11 +17,12 @@ public class MainActivity extends FragmentActivity
 
         FragmentManager manager = getSupportFragmentManager();
 
-        MainFragment f = (MainFragment)manager.findFragmentById(R.id.fragment_container);
+        ThreadListFragment f =
+            (ThreadListFragment)manager.findFragmentById(R.id.fragment_container);
         if (f == null) {
             FragmentTransaction trans = manager.beginTransaction();
             {
-                f = new MainFragment();
+                f = new ThreadListFragment();
                 trans.add(R.id.fragment_container, f);
             }
             trans.commit();
