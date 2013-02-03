@@ -1,3 +1,6 @@
+# vim swap files
+*.sw?
+
 # built application files
 *.apk
 *.ap_
